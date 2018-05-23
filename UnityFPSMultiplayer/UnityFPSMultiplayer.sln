@@ -1,12 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFPSMultiplayer.Plugins", "UnityFPSMultiplayer.Plugins.csproj", "{0CEB95F8-5F42-73A2-625F-54A94158B162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFPSMultiplayer", "UnityFPSMultiplayer.csproj", "{251B4B54-63A5-819E-50EC-A358B8A9B6A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFPSMultiplayer.Editor.Plugins", "UnityFPSMultiplayer.Editor.Plugins.csproj", "{7326343B-8DC0-681E-4899-17AB370F55DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CEB95F8-5F42-73A2-625F-54A94158B162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEB95F8-5F42-73A2-625F-54A94158B162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEB95F8-5F42-73A2-625F-54A94158B162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEB95F8-5F42-73A2-625F-54A94158B162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251B4B54-63A5-819E-50EC-A358B8A9B6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251B4B54-63A5-819E-50EC-A358B8A9B6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251B4B54-63A5-819E-50EC-A358B8A9B6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251B4B54-63A5-819E-50EC-A358B8A9B6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7326343B-8DC0-681E-4899-17AB370F55DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7326343B-8DC0-681E-4899-17AB370F55DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7326343B-8DC0-681E-4899-17AB370F55DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7326343B-8DC0-681E-4899-17AB370F55DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
